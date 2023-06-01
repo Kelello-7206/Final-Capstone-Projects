@@ -1,0 +1,380 @@
+:root {
+  --blue: rgba(0, 31, 63, 0.942);
+  --mint: rgba(173, 239, 209, 0.87);
+  --black: rgba(0, 0, 0, 0.929);
+  --white: rgba(255, 255, 255, 0.862);
+  --grey: rgb(128, 128, 128);
+  --green: #2c5f2de4;
+  --mos_g: #97bc62ff;
+  --orange: rgba(255, 166, 0, 0.847);
+
+  /*root is used to classify the colors used on the website*/
+}
+
+/*==================================header======================================*/
+header {
+  background-color: black;
+  height: auto;
+}
+
+.linkB {
+  color: var(--white);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 0, 208);
+}
+
+
+img {
+  height: 30vh;
+  width: 17vw;
+  padding-left: 42vw;
+}
+
+aside {
+  background-color: var(--black);
+  padding-left: 9vw;
+  text-align: center;
+}
+
+h1 {
+  color: var(--mint);
+  font-size: 3vw;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+p {
+  color: var(--mint);
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+.linkA {
+  text-align: center;
+}
+
+.linkA > li {
+  list-style: none;
+  border: var(--blue) solid 4px;
+  background-color: var(--mint);
+  color: var(--white);
+  display: inline-block;
+  margin: 1.1vw;
+}
+
+.linkB {
+  text-align: center;
+}
+
+.linkB > li {
+  list-style: none;
+  display: inline-block;
+  margin: 1%;
+}
+
+/*==================================main======================================*/
+
+main {
+  margin-top: -1.9%;
+  background-color: var(--blue);
+  height: auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  main {
+    background-color: var(--orange);
+  }
+
+  /*Mobile device settings*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  main {
+    background-color: var(--green);
+  }
+
+  /*Tablet setting*/
+}
+
+.mapA {
+  display: flex;
+  margin-top: -0.7%;
+  margin-bottom: -2%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .mapA {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    /*grid used to make two columns*/
+  }
+
+  .mapA2 {
+    float: right;
+  }
+
+  /*Mobile device settings*/
+}
+
+.mapA1 {
+  width: 51vw;
+  background-color: var(--blue);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .mapA1 {
+    background-color: var(--orange);
+  }
+
+  /*Mobile device settings*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .mapA1 {
+    background-color: var(--mos_g);
+  }
+
+  /*Tablet setting*/
+}
+
+.ul1,
+.ul2 {
+  list-style: none;
+}
+
+.ul1 > li {
+  margin: 1vw;
+}
+
+.ul2 > li {
+  margin: 1vw;
+}
+
+.ul1 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 1.4vw;
+  padding-left: 20vw;
+}
+
+.linksC {
+  color: var(--white);
+}
+
+.ul2 {
+  color: var(--white);
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 1.4vw;
+}
+
+h2 {
+  text-align: center;
+}
+
+.edu1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5vw;
+  color: var(--mint);
+  padding-left: 43.5vw;
+  margin-bottom: 2vw;
+  /*h2*/
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .edu1 {
+    color: var(--black);
+  }
+
+  /*Mobile device settings*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .edu1 {
+    color: var(--black);
+  }
+
+  /*Tablet setting*/
+}
+
+.ins1 {
+  font-family: "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 2vw;
+  padding-left: 21vw;
+  /*h3*/
+}
+
+.cer1 {
+  font-family: "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 2vw;
+  padding-top: 5vw;
+  padding-left: 4vw;
+  /*h3*/
+}
+/*==================================section======================================*/
+
+section {
+  height: auto;
+  width: auto;
+  margin-top: -2.2%;
+  padding-bottom: 4%;
+  background-color: var(--mint);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  section {
+    background-color: rgba(255, 166, 0, 0.716);
+  }
+
+  /*Mobile device settings*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  section {
+    background-color: rgba(0, 128, 0, 0.592);
+  }
+
+  /*Tablet setting*/
+}
+
+.ski1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5vw;
+  color: var(--blue);
+  padding-top: 2%;
+  /*h2*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .ski1 {
+    color: var(--black);
+  }
+
+  /*Tablet setting*/
+}
+
+/*styling for the bar graph*/
+.skill {
+  width: 100%;
+  max-width: 40vw;
+  padding: 0 2vw;
+  padding-top: 1.5vh;
+  padding-left: 25vw;
+}
+
+.skill-name {
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 300;
+  color: blue;
+  margin: 1vw 0;
+}
+
+.skill-bar {
+  height: 2.1vh;
+  background: black;
+  border-radius: 2%;
+}
+
+.skill-no {
+  height: 2.1vh;
+  background-color: var(--orange);
+  border-radius: 2%;
+  position: relative;
+  animation: full_bars 15s;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .skill-no {
+    background-color: var(--blue);
+  }
+
+  /*Mobile device settings*/
+}
+
+/*code for showing the percentage numbers on the graph*/
+.skill-no::before {
+  content: attr(no);
+  position: absolute;
+  font-size: 0.6em;
+  top: -3.2vh;
+  right: 0;
+  background: var(--white);
+  padding: 0.7% 1%;
+  border-radius: 2px;
+  transform: translateX(50%);
+}
+
+/*code for an arrow so the percentage number so it looks like a bubble*/
+.skill-no::after {
+  content: "";
+  position: absolute;
+  height: 1.1vh;
+  width: 0.3vw;
+  top: -1.3vh;
+  right: 0;
+  background: var(--white);
+  transform: translateX(50%);
+  border-radius: 2px;
+}
+
+/*triggers the animation*/
+@keyframes full_bars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*==================================footer======================================*/
+
+footer {
+  padding-top: 6.5%;
+  background-color: var(--black);
+}
+
+
+#sub1 {
+  text-align: center;
+  margin-left: 13.5vw;
+  width: 11.5vw;
+  height: 3.5vh;
+}
+
+.linkD {
+  text-align: center;
+}
+
+.linkD > li {
+  list-style: none;
+  display: inline-block;
+  margin: 1.5vw;
+}
+
+.con1 {
+  color: var(--white);
+  font-size: 2vw;
+}
+
+.linkD {
+  color: var(--white);
+}
+
+/*changes color of the icons*/
+
+.fa-brands {
+  color: var(--orange);
+}
+
+.fa-solid {
+  color: var(--orange);
+}
+
+.fa-regular {
+  color: var(--orange);
+}
